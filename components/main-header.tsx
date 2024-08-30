@@ -5,18 +5,18 @@ export default function MainHeader() {
   return (
     <header className={classes.header}>
       <NavLink href='/'>
-        <p className={classes.span}>DanAllie</p>
+        <p className={classes.span}>DanAllie Design</p>
       </NavLink>
       <nav className={classes.nav}>
         <ul>
-          <li>
-            <NavLink href='/contact'>contact</NavLink>
-          </li>
           <li>
             <NavLink href='/projects'>projects</NavLink>
           </li>
           <li>
             <NavLink href='/plans'>plans</NavLink>
+          </li>
+          <li>
+            <NavLink href='/contact'>contact</NavLink>
           </li>
         </ul>
       </nav>
