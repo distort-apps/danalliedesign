@@ -47,9 +47,8 @@ export default function Carousel() {
     }, 3000);
 
     return () => clearInterval(interval);
-  }, [images.length]);
-
-  images.forEach(img => console.log(img.src))
+  }, []);
+  
   return (
     <div className={classes.carousel}>
       {images.map((image, index) => (
