@@ -42,6 +42,14 @@ const images: Image[] = [
     src: "/images-home/oldtimy.png",
   },
   {
+    alt: "mirrors",
+    src: "/images-home/mirrors.png",
+  },
+  {
+    alt: "fireplace",
+    src: "/images-home/fireplace.png",
+  },
+  {
     alt: "chairs in kitchen",
     src: "/images-home/topone.png",
   },
