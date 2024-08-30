@@ -21,7 +21,7 @@
     letter-spacing: 0.15rem;
     color: rgb(var(--muted-text-rgb));
     text-align: center;
-    margin-top: 1rem;
+    margin-top: -1rem;
     
 }
 
