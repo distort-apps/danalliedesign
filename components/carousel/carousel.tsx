@@ -57,6 +57,10 @@ const images: Image[] = [
     alt: "castle house",
     src: "/images-home/bottomzero.png",
   },
+  {
+    alt: "bv",
+    src: "/images-home/md.png",
+  },
 ];
 
 export default function Carousel() {
