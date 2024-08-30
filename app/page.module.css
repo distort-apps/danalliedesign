@@ -19,7 +19,7 @@
   .intro p {
     font-family: "Montserrat", sans-serif;
     letter-spacing: 0.15rem;
-    color: rgb(var(--foreground-rgb));
+    color: rgb(var(--muted-text-rgb));
     text-align: center;
     margin-top: 1rem;
     
