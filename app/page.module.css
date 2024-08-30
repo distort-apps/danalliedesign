@@ -15,14 +15,6 @@
     align-items: center;
   }
 
-.p {
-    background: var(--highlight-gradient); 
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    letter-spacing: 0.15rem;
-    text-decoration: none;
-}
 
 .carousel {
     width: 100%;
@@ -38,4 +30,16 @@
     text-align: center;
     margin-top: -4rem;
     
+}
+
+.span {
+    font-weight: bold;
+    background: var(
+        --gradient-nav
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    letter-spacing: 0.15rem;
+    text-decoration: none;
 }

@@ -1,4 +1,4 @@
-import NavLink from "./nav-link";
+import NavLink from "../nav-link";
 import classes from "./main-header.module.css"
 
 export default function MainHeader() {
