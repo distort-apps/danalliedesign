@@ -1,0 +1,9 @@
+.home img {
+    width: 13rem;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+  }

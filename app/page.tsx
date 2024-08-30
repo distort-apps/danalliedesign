@@ -2,6 +2,7 @@ import Carousel from "@/components/carousel/carousel";
 import Image from "next/legacy/image";
 import classes from "./page.module.css";
 import Link from "next/link";
+import HomeGrid from "@/components/home/home-grid";
 
 export default function Home() {
   return (
