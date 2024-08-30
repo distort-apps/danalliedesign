@@ -1,0 +1,16 @@
+.header {
+    text-align: center;
+    margin: 1rem auto; 
+    padding: 1.25rem;
+    
+}
+
+.p {
+    background: var(--highlight-gradient); 
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 0.15rem;
+    text-decoration: none;
+}
+
