@@ -1,4 +1,4 @@
-import NavLink from "../nav-link";
+import NavLink from "./nav-link";
 import classes from "./main-header.module.css"
 
 export default function MainHeader() {
@@ -10,10 +10,10 @@ export default function MainHeader() {
       <nav className={classes.nav}>
         <ul>
           <li>
-            <NavLink href='/projects'>projects</NavLink>
+            <NavLink href='/plans'>plans</NavLink>
           </li>
           <li>
-            <NavLink href='/plans'>plans</NavLink>
+            <NavLink href='/homes'>homes</NavLink>
           </li>
           <li>
             <NavLink href='/contact'>contact</NavLink>

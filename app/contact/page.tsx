@@ -7,7 +7,7 @@ export default function ContactPage() {
       <header className={classes.header}>
         <h1>Contact DanAllie Design</h1>
         <p>
-          If you have any inquiries about my projects, or if youre looking for plans, we would love to connect:
+          If you have any inquiries about our homes, or if youre looking for plans, we would love to connect:
         </p>
       </header>
       <main className={classes.info}>
