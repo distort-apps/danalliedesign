@@ -1,5 +1,5 @@
 import Carousel from "@/components/carousel/carousel";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import classes from "./page.module.css";
 import Link from "next/link";
 
@@ -13,11 +13,9 @@ export default function Home() {
         </div>
       </header>
       <main className={classes.intro}>
-        <p>
-        We have been helping people since 1986 build their dream home. In 1988 we started building in the beautiful Tehachapi Mountains under the name of Knowles Construction.  We have been so blessed to not only have had great clients and built beautiful homes, but many friendships have been built along the way.
-        </p>
-
-
+      <p>
+      Helping people build their <span className={classes.span}>dream</span> home since 1986
+      </p>
       </main>
     </>
   );

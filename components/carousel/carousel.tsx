@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import classes from "./carousel.module.css";
 
 interface Image {
@@ -47,9 +47,8 @@ export default function Carousel() {
     }, 3000);
 
     return () => clearInterval(interval);
-  }, [images.length]);
-
-  images.forEach(img => console.log(img.src))
+  }, []);
+  
   return (
     <div className={classes.carousel}>
       {images.map((image, index) => (
